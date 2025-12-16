@@ -196,6 +196,12 @@ For detailed benchmark scripts and results, see [this gist](https://gist.github.
   - all
   - __call__
 
+## QwenImageEditPlusInpaintPipeline
+
+[[autodoc]] QwenImageEditPlusInpaintPipeline
+  - all
+  - __call__
+
 ## QwenImagePipelineOutput
 
 [[autodoc]] pipelines.qwenimage.pipeline_output.QwenImagePipelineOutput

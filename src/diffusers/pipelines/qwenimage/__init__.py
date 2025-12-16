@@ -32,6 +32,7 @@ else:
     _import_structure["pipeline_qwenimage_img2img"] = ["QwenImageImg2ImgPipeline"]
     _import_structure["pipeline_qwenimage_inpaint"] = ["QwenImageInpaintPipeline"]
     _import_structure["pipeline_qwenimage_layered"] = ["QwenImageLayeredPipeline"]
+    _import_structure["pipeline_qwenimage_edit_plus_inpaint"] = ["QwenImageEditPlusInpaintPipeline"]
 
 if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
     try:
@@ -49,6 +50,7 @@ if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
         from .pipeline_qwenimage_img2img import QwenImageImg2ImgPipeline
         from .pipeline_qwenimage_inpaint import QwenImageInpaintPipeline
         from .pipeline_qwenimage_layered import QwenImageLayeredPipeline
+        from .pipeline_qwenimage_edit_plus_inpaint import QwenImageEditPlusInpaintPipeline
 else:
     import sys
 
